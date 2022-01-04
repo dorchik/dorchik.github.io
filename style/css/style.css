@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Work+Sans:wght@100;200;400&display=swap");
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #707273;
+  font-family: Work Sans;
+}
+
+p {
+  margin-top: 0;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.head {
+  background: #F3FEFF;
+}
+
+@media screen and (max-width: 576px) {
+  .head .navbar-brand {
+    width: 50% !important;
+  }
+}
+
+.head .nav-item {
+  margin-left: 45px;
+}
+
+@media screen and (max-width: 1250px) {
+  .head .nav-item {
+    margin-left: 15px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .head .nav-item {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .head .nav-item-mod {
+    width: 100% !important;
+  }
+}
+
+.head ul li a:hover {
+  color: #a1e9f3 !important;
+  border-bottom: 2px solid #a1e9f3;
+}
+
+.head button {
+  margin-left: 100px !important;
+}
+
+.head button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .head button {
+    margin-left: 50px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head button {
+    margin-left: 0px !important;
+  }
+}
+
+.head a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #969999;
+}
+
+.head .singIn {
+  width: 120px;
+  height: 49px;
+  background: #35AFBF;
+  border-radius: 6px;
+  border-style: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .head .singIn {
+    margin-left: 20px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .head .singIn {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+.head .singIn a {
+  color: #FFFFFF;
+}
+
+.ContentHeader {
+  margin-top: 155px;
+}
+
+.ContentHeader h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 125%;
+  color: #252626;
+}
+
+@media screen and (max-width: 475px) {
+  .ContentHeader h1 {
+    font-size: 30px;
+  }
+}
+
+.ContentHeader h1 span {
+  color: #32A3B2;
+}
+
+.ContentHeader p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 160%;
+  color: #707273;
+}
+
+@media screen and (max-width: 475px) {
+  .ContentHeader p {
+    font-size: 15px;
+  }
+}
+
+.ContentHeader button {
+  width: 190px;
+  height: 62px;
+  background: #35AFBF;
+  border-radius: 6px;
+  border-style: none;
+  margin-left: 0 !important;
+}
+
+.ContentHeader button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.ContentHeader .right img {
+  height: 640px;
+  position: relative;
+  bottom: 100px;
+}
+
+@media screen and (max-width: 1400px) {
+  .ContentHeader .right img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ContentHeader .right img {
+    margin-top: 115px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ContentHeader .right img {
+    margin-top: 115px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ContentHeader .row {
+    text-align: center !important;
+  }
+}
+
+.services {
+  margin-top: 150px;
+}
+
+.services h2 {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  color: #252626;
+  text-align: center;
+}
+
+.services .row {
+  margin-top: 91px;
+}
+
+.services .col-lg-3:hover {
+  background: url(/img/backserv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 576px) {
+  .services .col-lg-3 {
+    padding-top: 50px !important;
+  }
+}
+
+.teachers {
+  margin-top: 120px;
+}
+
+.teachers button {
+  width: 149px;
+  height: 49px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border-style: none;
+  background: #FFFFFF;
+  border: 1px solid rgba(53, 175, 191, 0.2);
+}
+
+.teachers button:hover {
+  background: #a1e9f3;
+}
+
+.teachers button a {
+  text-decoration: none;
+  color: #35AFBF;
+}
+
+@media screen and (max-width: 992px) {
+  .teachers img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .teachers img {
+    margin-top: 50px !important;
+  }
+}
+
+.playVideo {
+  margin-top: 150px;
+}
+
+.achievement {
+  margin-top: 120px;
+}
+
+.achievement p {
+  padding-top: 15px;
+  padding-bottom: 0 !important;
+}
+
+.achievement a {
+  text-decoration: none !important;
+}
+
+.achievement .achievement-hover:hover {
+  border-bottom: 2px solid #32A3B2;
+}
+
+.quote {
+  background: url(/img/backque.png);
+  margin-top: 120px;
+}
+
+.people {
+  margin-top: 120px;
+}
+
+.people button {
+  border-style: none;
+  width: 162px;
+  height: 49px;
+  background: #35AFBF;
+  border-radius: 6px;
+  margin-bottom: 120px;
+}
+
+.people button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.people a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer {
+  background: #2C353E;
+  color: #FFFFFF;
+}
+
+.footer .row {
+  padding-top: 80px !important;
+  padding-bottom: 50px !important;
+  border-bottom: 1px solid #4B4B4B;
+}
+
+.footer .footer-mod-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.footer button {
+  margin-top: 25px;
+  width: 138px;
+  height: 49px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 12px;
+  background: #2C353E;
+}
+
+.footer button:hover {
+  background: #bdb2b2;
+  opacity: 0.9;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer span {
+  margin-right: 35px !important;
+}
+
+@media screen and (max-width: 325px) {
+  .footer span {
+    margin-right: 5px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
